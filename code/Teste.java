@@ -7,5 +7,8 @@ public class Teste {
         Decimal decimal = new Decimal();
         decimal.converterBinario("11110111011");
 
-    }
+        decimal.converterOctal("54721");
+
+        decimal.converterHexadecimal("24FED");
+    }   
 }
