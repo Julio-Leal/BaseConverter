@@ -6,7 +6,7 @@ public class Binario implements Base{
     private List<Integer> binario;
     
     public Binario() {
-        this.binario = new ArrayList <Integer> ();
+        this.binario = new ArrayList<Integer> ();
     }
 
     public void calcularConversao(String num){
@@ -17,10 +17,11 @@ public class Binario implements Base{
             binario.clear();
 
             do{
+
                 resto = numInteiro%2;
                 numInteiro = numInteiro/2;
-
                 binario.add(resto);
+
             }while(numInteiro != 0);
             
             System.out.println("O número "+num+" equivale a :");
@@ -35,6 +36,7 @@ public class Binario implements Base{
         for(i = binario.size() - 1 ; i >=0 ;i--){
             System.out.printf("%d", binario.get(i));
         }
+
         System.out.println();
     }
 }
