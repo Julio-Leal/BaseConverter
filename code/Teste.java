@@ -1,5 +1,7 @@
 public class Teste {
     public static void main(String[] args) {
+        new gui.Screen();
+
         Binario binario = new Binario();
 
         binario.calcularConversao("1979");
