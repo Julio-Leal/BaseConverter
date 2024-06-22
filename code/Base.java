@@ -1,5 +1,8 @@
 public interface Base {
 
-    public void calcularConversao(String num);
+    public String converterDecimal(String num);
     
+    public String converterOctal(String num);
+
+    public String converterHexadecimal(String num);
 }   
